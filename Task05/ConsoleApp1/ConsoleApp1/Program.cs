@@ -19,11 +19,18 @@
 
 //Console.WriteLine(students[0]);
 
-string[] Students  = new string[3];
+string[] students = new string[3];
 
-for (int i = 0; i < Students.Length; i++)
+for (int i = 0; i
+    < students.Length; i++)
 {
-    string Name = Console.ReadLine();
-    Students[i] = Name; 
+    string name = Console.ReadLine();
+    students[i] = name;
+}
+
+for (int i = 0; i < students.Length; i++)
+{
+    Console.Write(students[i] + " ");
+
 }
 
