@@ -30,7 +30,7 @@ namespace MyApp
 
 
             int index = int.Parse(Console.ReadLine());
-            int digitSum = CalculateDigitSum(array, index);
+            int digitSum = CalculateSum(array, index);
             Console.WriteLine("saboloo shedegi: " + digitSum);
 
 
@@ -46,7 +46,7 @@ namespace MyApp
 
         }
 
-        static int CalculateDigitSum(int[] array, int index)
+        static int CalculateSum(int[] array, int index)
         {
             int number = array[index];
             int sum = 0;
