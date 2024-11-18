@@ -18,11 +18,11 @@ namespace davaleba__9.interfaces
         public abstract string MakeSound();
 
 
-        // Properties
+       
         public string Name { get; set; }
         public int Age { get; set; }
 
-        // Constructor to initialize Name and Age
+        
         public Animal(string name, int age)
         {
             Name = name;
